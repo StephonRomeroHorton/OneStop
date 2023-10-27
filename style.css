@@ -85,6 +85,10 @@ font-size: 2em;
 animation: fadeIn 2s ease-in forwards;
 animation: moveUpDown 1s infinite alternate;
 }
+#home .content-container .scroll-down span:hover{
+  cursor: pointer;
+  color:#e43330;
+}
 
 
 @keyframes moveUpDown {
