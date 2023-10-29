@@ -15,6 +15,16 @@ body {
   animation: fadeIn 2s ease-in-out forwards;
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    background: url('images/mobile.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+}
+
 
 #home{
 display: flex;
